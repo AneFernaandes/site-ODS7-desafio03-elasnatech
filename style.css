@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+  
+     
+}
+header {
+    background-color: #01AAEA;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+#logo {
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+    
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+    
+    
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+    text-align: center;
+   
+         
+}
+li:hover {
+    background-color: #537e7c;
+}
+
+#acao:hover {
+    background-color: #537e7c;
+}
+#imagem_fundo {
+    background: url("eolicafundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.8;
+       
+    
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #01AAEA; 
+    padding: 30px;
+}
+#acao {
+    color: #01AAEA;
+    border: 1px #01AAEA solid;
+    padding: 10px 20px 10px 20px ;
+    text-decoration: none;
+}
+.icone {
+    width: 51px;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: #f7f7f7;
+}
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    background-color: #01AAEA;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: white;
+}
+@media all and (max-width: 768px) {
+   #menu {
+       visibility: hidden;
+   } 
+   .coluna, .dois, .tres, .quatro {
+        display: block;   
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+   }
+   #logodiv {
+       width: 100%;
+       position: relative;
+       text-align: center;
+       padding: 0px;
+   }
+   #logo {
+       margin-left: 0px;
+       transform: translateX(-50%);
+   }
+}
+
